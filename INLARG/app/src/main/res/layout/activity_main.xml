@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.inlarg.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingBottom="@dimen/title_padding"
+            android:paddingTop="@dimen/title_padding"
+            android:text="@string/restaurant_name"
+            android:textSize="@dimen/title_size"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="@dimen/main_image_max_width"
+            android:scaleType="fitCenter"
+            android:src="@drawable/main_image" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_margin_linearlayout"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/right_left_margin"
+                android:adjustViewBounds="true"
+                android:maxHeight="@dimen/image_max_dimensions"
+                android:maxWidth="@dimen/image_max_dimensions"
+                android:scaleType="fitCenter"
+                android:src="@drawable/info_icon" />
+
+            <View
+                android:layout_width="@dimen/view_height_horizontal"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/right_left_margin"
+                android:layout_marginRight="@dimen/right_left_margin"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/view_width_vertical"
+            android:layout_height="@dimen/view_height_vertical"
+            android:layout_marginLeft="@dimen/view_margin_vertical"
+            android:layout_marginRight="@dimen/right_left_margin"
+            android:background="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/right_left_margin"
+                android:adjustViewBounds="true"
+                android:maxHeight="@dimen/image_max_dimensions"
+                android:maxWidth="@dimen/image_max_dimensions"
+                android:scaleType="fitCenter"
+                android:src="@drawable/place_icon" />
+
+            <View
+                android:layout_width="@dimen/view_height_horizontal"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/right_left_margin"
+                android:layout_marginRight="@dimen/right_left_margin"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/view_width_vertical"
+            android:layout_height="@dimen/view_height_vertical"
+            android:layout_marginLeft="@dimen/view_margin_vertical"
+            android:layout_marginRight="@dimen/right_left_margin"
+            android:background="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/right_left_margin"
+                android:adjustViewBounds="true"
+                android:maxHeight="@dimen/image_max_dimensions"
+                android:maxWidth="@dimen/image_max_dimensions"
+                android:scaleType="fitCenter"
+                android:src="@drawable/phone_icon" />
+
+            <View
+                android:layout_width="@dimen/view_height_horizontal"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/right_left_margin"
+                android:layout_marginRight="@dimen/right_left_margin"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/phone"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size"
+                android:autoLink="all"
+                android:linksClickable="true" />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="@dimen/view_width_vertical"
+            android:layout_height="@dimen/view_height_vertical"
+            android:layout_marginLeft="@dimen/view_margin_vertical"
+            android:layout_marginRight="@dimen/right_left_margin"
+            android:background="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/right_left_margin"
+                android:adjustViewBounds="true"
+                android:maxHeight="@dimen/image_max_dimensions"
+                android:maxWidth="@dimen/image_max_dimensions"
+                android:scaleType="fitCenter"
+                android:src="@drawable/time_icon" />
+
+            <View
+                android:layout_width="@dimen/view_height_horizontal"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/right_left_margin"
+                android:layout_marginRight="@dimen/right_left_margin"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hours"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size" />
+
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="@dimen/view_width_vertical"
+            android:layout_height="@dimen/view_height_vertical"
+            android:layout_marginLeft="@dimen/view_margin_vertical"
+            android:layout_marginRight="@dimen/right_left_margin"
+            android:background="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/right_left_margin"
+                android:adjustViewBounds="true"
+                android:maxHeight="@dimen/image_max_dimensions"
+                android:maxWidth="@dimen/image_max_dimensions"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mail_icon" />
+
+            <View
+                android:layout_width="@dimen/view_height_horizontal"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/right_left_margin"
+                android:layout_marginRight="@dimen/right_left_margin"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contact"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size"
+                android:autoLink="all"
+                android:linksClickable="true" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="@dimen/view_width_vertical"
+            android:layout_height="@dimen/view_height_vertical"
+            android:layout_marginLeft="@dimen/view_margin_vertical"
+            android:layout_marginRight="@dimen/right_left_margin"
+            android:background="@android:color/black" />
+    </LinearLayout>
+
+</ScrollView>

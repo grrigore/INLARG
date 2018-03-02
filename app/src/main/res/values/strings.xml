@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">INLARG</string>
+    <string name="restaurant_name">INLARG Surf\'n\'turf Resto</string>
+    <string name="info">Located in old part of Constanta, few steps away of Tomis Yacht Marina, with a great offer of fresh fish and seafood.</string>
+    <string name="address">Portul Tomis, Constanta 905600, Romania</string>
+    <string name="phone">+40 766 059 955</string>
+    <string name="hours">9:00 am &#8211; 11:59 pm</string>
+    <string name="contact">contact@inlarg.ro</string>
+</resources>

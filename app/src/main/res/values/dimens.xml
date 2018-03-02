@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!-- title_padding is the padding form the titlte -->
+    <dimen name="title_padding">10dp</dimen>
+    <!-- title_size is the textSize of the title -->
+    <dimen name="title_size">25sp</dimen>
+    <!-- main_image_max_width represents the maxWidth of the top image -->
+    <dimen name="main_image_max_width">200dp</dimen>
+    <!-- top_margin_linearlayout is the marginTop from the beging of the first LinearLayout oriented horizontally -->
+    <dimen name="top_margin_linearlayout">32dp</dimen>
+    <!-- image_max_dimensions represents the maxWidth and maxHeight for the icons -->
+    <dimen name="image_max_dimensions">24dp</dimen>
+    <!-- right_left_margin is the most common margin used to separate the ImageView, View and TextView-->
+    <dimen name="right_left_margin">8dp</dimen>
+    <!-- view_height_horizontal is the View height from the horizontal LinearLayout -->
+    <dimen name="view_height_horizontal">1dp</dimen>
+    <!-- view_width_vertical is the View height from the vertical LinearLayout-->
+    <dimen name="view_height_vertical">8dp</dimen>
+    <!-- view_width_vertical is the View width from the vertical LinearLayout-->
+    <dimen name="view_width_vertical">1dp</dimen>
+    <!-- view_width_vertical is the View left margin from the vertical LinearLayout-->
+    <dimen name="view_margin_vertical">40dp</dimen>
+    <!-- text_size is the textSize from all the TextViews except the title-->
+    <dimen name="text_size">16sp</dimen>
+</resources>
